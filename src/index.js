@@ -1,7 +1,7 @@
 import './styles.css';
 
 import fetchCountries from './js/fetchCountries';
-import addContent from './js/update-content';
+import addContent from './js/addContent';
 import debounce from '../node_modules/lodash.debounce';
 
 const nameCountry = document.querySelector('.js-name-country');
