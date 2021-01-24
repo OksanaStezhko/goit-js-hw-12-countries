@@ -14,6 +14,9 @@ function addContent(templ) {
   countryRef.innerHTML = '';
 
   if (templ.status === 404) {
+    error({
+      text: 'No value found! Enter another query! ',
+    });
     return;
   }
 

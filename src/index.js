@@ -14,5 +14,3 @@ function onChangeNameCountry(event) {
 }
 
 nameCountry.addEventListener('input', debounce(onChangeNameCountry, 500));
-
-// const debounce = require('lodash.debounce');
